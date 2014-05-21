@@ -1,2 +1,16 @@
+$navbar-height: 100px;
+$navbar-default-bg: White;
+$navbar-default-border: White;
+$btn-primary-bg: SlateGray;
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+p, div {
+    font-family: 'Raleway', sans-serif;
+}
+
+
 
 @import 'bootstrap';
