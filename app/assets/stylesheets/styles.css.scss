@@ -6,11 +6,20 @@ $btn-primary-bg: SlateGray;
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 p, div {
     font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
+
 
 
 
 @import 'bootstrap';
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
