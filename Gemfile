@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
   gem 'rails', '4.1.1'
   gem 'heroku', '~> 3.7.3'
+  gem 'devise', '~> 3.2.4'
 group:development,:test do
   gem 'sqlite3'
 end
