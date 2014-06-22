@@ -1,8 +1,12 @@
 Rails.application.routes.draw do
+  devise_for :views
 root 'pages#home'
   get 'about' => 'pages#about'
   devise_for :user do
   get 'new_user_registration' => 'devise/registrations#new'
+  get 'new_user_session' => 'devise/sessions#new'
+  get 'destroy_user_session' => 'devise/sessions#destroy'
+  get 'edit_user_registration' => 'devise/registrations#edit'
 end
 
 

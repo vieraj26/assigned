@@ -1,4 +1,11 @@
-
+<% if user_signed_in? %>
+	<div class="jumbotron">
+	<h1>Assigned</h1>
+	<p1>This is the Home page for the
+		<%=link_to "Assigned", "http://www.joedviera.com" %> Application
+	</p1>
+	</div>
+<% else %>
 <div class="jumbotron">
 <h1>Assigned</h1>
 <%=link_to "Sign Up Now!", new_user_registration_path, class:"btn btn-primary btn-lg"%>
@@ -8,3 +15,5 @@
 	<%=link_to "Assigned", "http://www.joedviera.com" %> Application
 </p1>
 </div>
+
+<% end%>
